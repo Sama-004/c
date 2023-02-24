@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+
+    
+    char ch;
+scanf("%c", &ch);
+printf("%c\n", ch);
+    char lang[20];
+    scanf("%s",lang);
+    printf("%s\n", lang);
+    scanf("\n");
+    char welcome[20];
+    scanf("%[^\n]%*c", welcome);
+    printf("%s\n",welcome);
+    
+    
+    return 0;
+}
